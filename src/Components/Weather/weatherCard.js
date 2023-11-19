@@ -34,7 +34,8 @@ const WeatherCard = ({tempInfo}) => {
 
             case "Mist": setWeatherState("wi-cloudy-gusts");
                 break;
-
+            case "Smoke": setWeatherState("wi-cloudy-gusts");
+                break;
             case "Snow": setWeatherState("wi-snow");
                 break;
             
